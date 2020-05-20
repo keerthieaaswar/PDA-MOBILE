@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button/> Button should render without crash 1`] = `
+<View
+  accessible={true}
+  onLayout={[Function]}
+  onPress={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onRippleAnimation={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  rippleCentered={false}
+  rippleColor="#546E7A"
+  rippleDuration={400}
+  rippleFades={true}
+  rippleOpacity={0.3}
+  rippleSequential={false}
+  rippleSize={0}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#009688",
+      "borderRadius": 40,
+      "paddingHorizontal": 2,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "borderRadius": 78.47058823529412,
+        },
+      ]
+    }
+  />
+</View>
+`;

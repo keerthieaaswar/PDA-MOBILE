@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info Page Component Info Page Component rendering Info Component should render  1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        Session Name
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#EEEEEE",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        Session Description
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        Training Org
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#EEEEEE",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        Start Date
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        End Date
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#EEEEEE",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 29.426470588235293,
+          "paddingVertical": 39.23529411764706,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 2,
+            },
+          ]
+        }
+      >
+        Location
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 28.285714285714285,
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {
+              "color": "#121212",
+              "flex": 3,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

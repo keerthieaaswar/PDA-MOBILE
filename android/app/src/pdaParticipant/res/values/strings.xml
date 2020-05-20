@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PDA-Participant</string>
+    <string name="clevertap_account_id_value">""</string>
+    <string name="clevertap_token_value">""</string>
+</resources>

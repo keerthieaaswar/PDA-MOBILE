@@ -1,0 +1,73 @@
+
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+      "no-duplicate-case": "error",
+      "no-use-before-define": "error",
+      "no-trailing-spaces": "error",
+      "comma-dangle": ["error", "never"],
+      "constructor-super": "error",
+      "indent": ["error", 2, {"SwitchCase": 1}],
+      "jsx-quotes": "warn",
+      "linebreak-style": ["error", "unix"],
+      "no-class-assign": "error",
+      "no-const-assign": "error",
+      "no-console": "error",
+      "no-dupe-class-members": "error",
+      "no-this-before-super": "error",
+      "no-unused-vars": ["error"],
+      "no-var": "warn",
+      "prefer-spread": "warn",
+      "prefer-template": "warn",
+      "quotes": ["error", "single"],
+      "require-yield": "error",
+      "semi": "error",
+      "arrow-parens": "warn",
+      "generator-star-spacing": "warn",
+      "object-shorthand": "warn",
+      "no-await-in-loop": "warn",
+      "react/jsx-closing-bracket-location": "warn",
+      "react/jsx-curly-spacing": "warn",
+      "react/jsx-max-props-per-line": ["warn", {"maximum": 3}],
+      "react/jsx-no-duplicate-props": "warn",
+      "react/jsx-no-undef": "warn",
+      "react/jsx-uses-react": "error",
+      "react/jsx-uses-vars": "error",
+      "react/jsx-wrap-multilines": "warn",
+      "react/no-direct-mutation-state": "warn",
+      "react/prop-types": "warn",
+      "react/react-in-jsx-scope": "error",
+      "react/self-closing-comp": "warn",
+      "react/sort-comp": "warn",
+      "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+      "no-alert":"error",
+      "no-useless-catch": "error",
+      "no-warning-comments": "error",
+      "no-inline-comments": "error",
+      "max-lines-per-function": ["error", 100],
+      "max-lines": ["error", 800],
+      "camelcase": [2, {"properties": "always"}]
+    },
+    "plugins": [
+      "babel",
+      "react",
+      "promise"
+    ]
+  }
+ 
+ 
+ 

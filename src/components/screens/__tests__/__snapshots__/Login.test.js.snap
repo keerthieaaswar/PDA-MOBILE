@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page Compotent Login Page Compotent rednering Login Compontent should render  1`] = `
+<View
+  pointerEvents={null}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/Images/background.jpeg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "flex": 1,
+            "padding": 39.23529411764706,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "padding": 39.23529411764706,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/Images/logo.png",
+              }
+            }
+            style={
+              Object {
+                "height": 282.49411764705883,
+                "width": 282.49411764705883,
+              }
+            }
+            testID="logo"
+          />
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+              },
+              Object {
+                "fontFamily": "Roboto-Regular",
+                "fontSize": 40.85714285714286,
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {
+                "paddingVertical": 19.61764705882353,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Welcome!
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+              },
+              Object {
+                "fontFamily": "Roboto-Regular",
+                "fontSize": 23.57142857142857,
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {
+                "paddingBottom": 58.85294117647059,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Login using your email id and password
+        </Text>
+        <View>
+          <TextInput
+            accessibilityLabel="email_textInput"
+            allowFontScaling={true}
+            autoCapitalize="none"
+            keyboardType="email-address"
+            onChangeText={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Email Id"
+            placeholderTextColor="#fff"
+            returnKeyType="next"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "marginTop": 9.808823529411764,
+                },
+                Object {
+                  "fontFamily": "Roboto-Regular",
+                  "fontSize": 23.57142857142857,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontFamily": "Roboto-Light",
+                },
+                undefined,
+              ]
+            }
+            testID="email_textInput"
+            underlineColorAndroid="#fff"
+            value=""
+          />
+        </View>
+        <View>
+          <TextInput
+            accessibilityLabel="password_textInput"
+            allowFontScaling={true}
+            autoCapitalize="none"
+            onChangeText={[Function]}
+            onSubmitEditing={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#fff"
+            returnKeyType="done"
+            secureTextEntry={true}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "marginTop": 9.808823529411764,
+                },
+                Object {
+                  "fontFamily": "Roboto-Regular",
+                  "fontSize": 23.57142857142857,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontFamily": "Roboto-Light",
+                },
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "marginVertical": 19.61764705882353,
+                  },
+                  Object {
+                    "fontFamily": "Roboto-Regular",
+                    "fontSize": 23.57142857142857,
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {
+                    "fontFamily": "Roboto-Light",
+                  },
+                ],
+              ]
+            }
+            testID="password_textInput"
+            underlineColorAndroid="#fff"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingVertical": 98.08823529411764,
+            }
+          }
+        >
+          <BVLinearGradient
+            colors={
+              Array [
+                4283283116,
+                4280723098,
+              ]
+            }
+            endPoint={
+              Object {
+                "x": 0.5,
+                "y": 1,
+              }
+            }
+            locations={null}
+            startPoint={
+              Object {
+                "x": 0.5,
+                "y": 0,
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              onLayout={[Function]}
+              onPress={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onRippleAnimation={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              rippleCentered={false}
+              rippleColor="#546E7A"
+              rippleDuration={400}
+              rippleFades={true}
+              rippleOpacity={0.3}
+              rippleSequential={false}
+              rippleSize={0}
+              style={
+                Object {
+                  "borderRadius": 5,
+                  "paddingLeft": 25,
+                  "paddingRight": 25,
+                  "paddingVertical": 10,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Array [
+                    undefined,
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontWeight": "bold",
+                        "paddingHorizontal": 78.47058823529412,
+                      },
+                      Object {
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 25.142857142857142,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Roboto-Regular",
+                      "fontSize": 23.57142857142857,
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {
+                      "fontFamily": "Roboto-Medium",
+                    },
+                  ]
+                }
+              >
+                LOGIN
+              </Text>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </BVLinearGradient>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                },
+                Object {
+                  "fontFamily": "Roboto-Regular",
+                  "fontSize": 23.57142857142857,
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "paddingVertical": 19.61764705882353,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Don’t have account?
+            <Text
+              onPress={[Function]}
+              style={
+                Object {
+                  "color": "#4DB6AC",
+                }
+              }
+              testID="signup_Text"
+            >
+               
+              Create account now
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

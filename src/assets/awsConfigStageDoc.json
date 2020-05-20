@@ -1,0 +1,8 @@
+{
+    "accessKey":"",
+    "secretKey":"",
+    "bucket":"",
+    "keyPrefix":"",
+    "region":"",
+    "UrlAwsPrefix":""
+}

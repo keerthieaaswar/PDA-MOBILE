@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NaviagtionRouter rendering renders the NaviagtionRouter  1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "flexDirection": "column-reverse",
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#000",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        pointerEvents="auto"
+        style={
+          Object {
+            "backgroundColor": "#E9E9EF",
+            "bottom": 0,
+            "left": 0,
+            "opacity": 1,
+            "paddingTop": 0,
+            "position": "absolute",
+            "right": 0,
+            "shadowColor": "black",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 5,
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+              Object {
+                "translateY": 0,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          pointerEvents={null}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            accessibilityIgnoresInvertColors={true}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/assets/Images/background.jpeg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "height": undefined,
+                    "width": undefined,
+                  },
+                  undefined,
+                ]
+              }
+            />
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.6)",
+                    "flex": 1,
+                    "padding": 39.23529411764706,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "padding": 39.23529411764706,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../src/assets/Images/logo.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 156.94117647058823,
+                        "width": 156.94117647058823,
+                      }
+                    }
+                    testID="logo"
+                  />
+                </View>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                      },
+                      Object {
+                        "fontFamily": "Roboto-Regular",
+                        "fontSize": 40.85714285714286,
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {
+                        "paddingVertical": 19.61764705882353,
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Sign Up
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "color": "#fff",
+                          "height": 50,
+                          "width": 100,
+                        }
+                      }
+                    >
+                      <RCTPicker
+                        items={
+                          Array [
+                            Object {
+                              "label": "Mr.",
+                              "textColor": undefined,
+                              "value": "Mr.",
+                            },
+                            Object {
+                              "label": "Miss.",
+                              "textColor": undefined,
+                              "value": "Miss.",
+                            },
+                            Object {
+                              "label": "Ms.",
+                              "textColor": undefined,
+                              "value": "Ms.",
+                            },
+                            Object {
+                              "label": "Mrs.",
+                              "textColor": undefined,
+                              "value": "Mrs.",
+                            },
+                          ]
+                        }
+                        onChange={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        selectedIndex={0}
+                        style={
+                          Array [
+                            Object {
+                              "height": 216,
+                            },
+                            undefined,
+                          ]
+                        }
+                        testID="titlePicker"
+                      />
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "backgroundColor": "#fff",
+                          "height": 1,
+                          "marginLeft": 9.808823529411764,
+                          "marginRight": 39.23529411764706,
+                          "marginVertical": -5,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <View>
+                      <TextInput
+                        accessibilityLabel="firstName_textInput"
+                        allowFontScaling={true}
+                        autoCapitalize="none"
+                        keyboardType="default"
+                        onChangeText={[Function]}
+                        onSubmitEditing={[Function]}
+                        placeholder="First Name"
+                        placeholderTextColor="#fff"
+                        returnKeyType="next"
+                        style={
+                          Array [
+                            Object {
+                              "color": "#fff",
+                              "marginTop": 9.808823529411764,
+                            },
+                            Object {
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 23.57142857142857,
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {
+                              "fontFamily": "Roboto-Light",
+                            },
+                            undefined,
+                          ]
+                        }
+                        testID="firstName_textInput"
+                        underlineColorAndroid="#fff"
+                        value=""
+                      />
+                    </View>
+                  </View>
+                </View>
+                <View>
+                  <TextInput
+                    accessibilityLabel="lastName_textInput"
+                    allowFontScaling={true}
+                    autoCapitalize="none"
+                    keyboardType="default"
+                    onChangeText={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Last Name"
+                    placeholderTextColor="#fff"
+                    returnKeyType="next"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "marginTop": 9.808823529411764,
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 23.57142857142857,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Light",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="lastName_textInput"
+                    underlineColorAndroid="#fff"
+                    value=""
+                  />
+                </View>
+                <View>
+                  <TextInput
+                    accessibilityLabel="email_textInput"
+                    allowFontScaling={true}
+                    autoCapitalize="none"
+                    keyboardType="email-address"
+                    onChangeText={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Email Id"
+                    placeholderTextColor="#fff"
+                    returnKeyType="next"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "marginTop": 9.808823529411764,
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 23.57142857142857,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Light",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="email_textInput"
+                    underlineColorAndroid="#fff"
+                    value=""
+                  />
+                </View>
+                <View>
+                  <TextInput
+                    accessibilityLabel="password_textInput"
+                    allowFontScaling={true}
+                    autoCapitalize="none"
+                    keyboardType="default"
+                    onChangeText={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Password"
+                    placeholderTextColor="#fff"
+                    returnKeyType="next"
+                    secureTextEntry={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "marginTop": 9.808823529411764,
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 23.57142857142857,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Light",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="password_textInput"
+                    underlineColorAndroid="#fff"
+                    value=""
+                  />
+                </View>
+                <View>
+                  <TextInput
+                    accessibilityLabel="retypePassword_textInput"
+                    allowFontScaling={true}
+                    autoCapitalize="none"
+                    keyboardType="default"
+                    onChangeText={[Function]}
+                    onSubmitEditing={[Function]}
+                    placeholder="Retype Password"
+                    placeholderTextColor="#fff"
+                    returnKeyType="done"
+                    secureTextEntry={true}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "marginTop": 9.808823529411764,
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 23.57142857142857,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Light",
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="retypePassword_textInput"
+                    underlineColorAndroid="#fff"
+                    value=""
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "marginVertical": 78.47058823529412,
+                    }
+                  }
+                >
+                  <BVLinearGradient
+                    colors={
+                      Array [
+                        4283283116,
+                        4280723098,
+                      ]
+                    }
+                    endPoint={
+                      Object {
+                        "x": 0.5,
+                        "y": 1,
+                      }
+                    }
+                    locations={null}
+                    startPoint={
+                      Object {
+                        "x": 0.5,
+                        "y": 0,
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderRadius": 5,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      onLayout={[Function]}
+                      onPress={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onRippleAnimation={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      pointerEvents="box-only"
+                      rippleCentered={false}
+                      rippleColor="#546E7A"
+                      rippleDuration={400}
+                      rippleFades={true}
+                      rippleOpacity={0.3}
+                      rippleSequential={false}
+                      rippleSize={0}
+                      style={
+                        Object {
+                          "borderRadius": 5,
+                          "paddingLeft": 25,
+                          "paddingRight": 25,
+                          "paddingVertical": 10,
+                        }
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            undefined,
+                            Array [
+                              Object {
+                                "color": "#fff",
+                                "fontWeight": "bold",
+                                "paddingHorizontal": 78.47058823529412,
+                              },
+                              Object {
+                                "fontFamily": "Roboto-Regular",
+                                "fontSize": 25.142857142857142,
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                            ],
+                            Object {
+                              "fontFamily": "Roboto-Regular",
+                              "fontSize": 23.57142857142857,
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {
+                              "fontFamily": "Roboto-Medium",
+                            },
+                          ]
+                        }
+                      >
+                        SIGN UP
+                      </Text>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "bottom": 0,
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "borderRadius": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </BVLinearGradient>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                        },
+                        Object {
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 23.57142857142857,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {
+                          "paddingVertical": 19.61764705882353,
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    Already have account?
+                    <Text
+                      onPress={[Function]}
+                      style={
+                        Object {
+                          "color": "#4DB6AC",
+                        }
+                      }
+                      testID="Tologin_Text"
+                    >
+                       
+                      Login now
+                    </Text>
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+            "transform": Array [
+              Object {
+                "translateX": -750,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "borderBottomColor": "#A7A7AA",
+              "borderBottomWidth": 0.5,
+              "height": 64,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 20,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

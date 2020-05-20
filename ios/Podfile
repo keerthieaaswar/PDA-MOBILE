@@ -1,0 +1,50 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def pod_config
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'CleverTap-iOS-SDK','3.4.2'
+  pod 'react-native-network-info', :path => '../node_modules/react-native-network-info'
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'react-native-spinkit', :path => '../node_modules/react-native-spinkit'
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+  pod 'react-native-pdf', :path => '../node_modules/react-native-pdf'
+  end
+
+target 'PDA-Trainer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  
+  # Pods for pda
+  pod_config
+  
+
+end
+
+target 'PDA-Participant' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  
+  # Pods for Participant
+  
+  pod_config
+end
+
+post_install do |installer|
+   installer.pods_project.targets.each do |target|
+     if target.name == "React"
+       target.remove_from_project
+     end
+   end
+ end

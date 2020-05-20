@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextInput/> should render the component 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#ffffff",
+        "flexDirection": "row",
+        "marginVertical": 19.61764705882353,
+      },
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "white",
+        "flexDirection": "row",
+        "marginVertical": 19.61764705882353,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "fontSize": 15,
+        },
+        Object {
+          "alignItems": "center",
+          "padding": 5,
+          "paddingHorizontal": 10,
+        },
+        Object {
+          "fontFamily": "Font Awesome 5 Pro",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontWeight": "100",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    maxLength={250}
+    multiline={false}
+    numberOfLines={1}
+    onChangeText={[Function]}
+    onEndEditing={[Function]}
+    onFocus={[Function]}
+    onSubmitEditing={[Function]}
+    placeholderTextColor="rgba(255, 255, 255, 0.55)"
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "flex": 1,
+        },
+        Object {
+          "fontFamily": "Roboto-Regular",
+          "fontSize": 23.57142857142857,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontFamily": "Roboto-Light",
+        },
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<TextInput/> should render the compontent 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#fff",
+        "flexDirection": "row",
+        "marginVertical": 19.61764705882353,
+      },
+      Object {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "white",
+        "flexDirection": "row",
+        "marginVertical": 19.61764705882353,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontSize": 15,
+        },
+        Object {
+          "alignItems": "center",
+          "padding": 5,
+          "paddingHorizontal": 10,
+        },
+        Object {
+          "fontFamily": "Font Awesome 5 Pro",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontWeight": "100",
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    maxLength={250}
+    multiline={false}
+    numberOfLines={1}
+    onChangeText={[Function]}
+    onEndEditing={[Function]}
+    onFocus={[Function]}
+    onSubmitEditing={[Function]}
+    placeholderTextColor="rgba(255, 255, 255, 0.55)"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "flex": 1,
+        },
+        Object {
+          "fontFamily": "Roboto-Regular",
+          "fontSize": 23.57142857142857,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontFamily": "Roboto-Light",
+        },
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

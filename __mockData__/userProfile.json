@@ -1,0 +1,13 @@
+{
+    "responseCode": 200,
+    "error":"",
+    "response": {
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "phone": "",
+        "photo": "",
+        "qrCodeValue": "string",
+        "salutation": "string"
+    }
+}

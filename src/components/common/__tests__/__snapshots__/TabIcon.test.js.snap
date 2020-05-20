@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabIcon/> TabIcon should render without crash 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "height": "100%",
+        "justifyContent": "center",
+        "paddingTop": 6,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={0}
+    style={
+      Object {
+        "height": 30,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Roboto-Regular",
+          "fontSize": 15.714285714285714,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {
+          "color": "#CCCCCC",
+          "flex": 1,
+          "paddingVertical": 2,
+        },
+      ]
+    }
+  />
+</View>
+`;
