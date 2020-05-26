@@ -1,4 +1,4 @@
-# pda-frontend
+# PDA-frontend
 ## Get Started
 
 If you have not yet installed React Native, you can use [this tutorial](https://facebook.github.io/react-native/docs/getting-started.html).
@@ -41,7 +41,7 @@ Invoke ```yarn android-trainer-release``` command
 4. Change schema into Generic IOS Device
 5. Click Product -> Archive
 
-
+Please refer to [Wiki](https://github.com/PDA-Open-Source/PDA-MOBILE/wiki) for further details.
 
 
 
