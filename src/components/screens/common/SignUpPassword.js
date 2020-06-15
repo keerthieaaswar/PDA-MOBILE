@@ -132,11 +132,7 @@ class SignUpPassword extends Component {
       return;
     }
     if (isTermsConditionsCheck !== true) {
-      showErrorMessage(stringsConvertor('validationMessage.checkBoxError'));
-      return;
-    }
-    if (userPIIShare !== true) {
-      showErrorMessage(stringsConvertor('validationMessage.checkBoxError'));
+      showErrorMessage(stringsConvertor('validationMessage.acceptTermsConditions'));
       return;
     }
     if (isNetworkConnected) {

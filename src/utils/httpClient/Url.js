@@ -10,7 +10,7 @@ import awsConfigProduction from '../../assets/awsConfigProduction.json';
 import awsConfigStageDoc from '../../assets/awsConfigStageDoc.json';
 //  Local Server
 // export const isDevelopment = true;
-// export const BASE_URL = '';
+//  export const BASE_URL = '';
 
 // Dev Server
 // export const isDevelopment = true;
@@ -78,7 +78,7 @@ export const URL = {
   ATTESTATIONLIST: 'attestations/org',
   SCAN_IN_OUT:'session/attendance',
   NOTIFICATION_UN_READ_COUNT:'session/notifications/unReadCount',
-  NOTIFICATION_LIST:'/session/notifications/timezone',
+  NOTIFICATION_LIST:'/session/notifications',
   NOTIFICATION_UPDATE_STATUS:'session/notifications/status',
   NOTIFICATION_UPDATE_PHOTO: 'user/update-photo',
   ENTITY_TELEMETRY:'entity/telemetry',
