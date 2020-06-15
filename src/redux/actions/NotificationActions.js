@@ -37,8 +37,7 @@ export const getNotificationList = (pageNumber, pageSize, timeZone, onCallback)=
   return (dispatch, getState)=>{
     const params =  {
       pageNumber,
-      pageSize,
-      timeZone
+      pageSize
     };
     let notifications = getState().notificationState.notifications;
     return HttpBaseClient.get(URL.NOTIFICATION_LIST, 1, params).then((response) => {

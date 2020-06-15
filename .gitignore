@@ -71,3 +71,4 @@ Podfile.lock
 ios/Trainer 2020-02-27 18-57-07/
 *.jsbundle
 main.jsbundle.meta
+yarn.lock

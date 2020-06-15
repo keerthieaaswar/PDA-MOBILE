@@ -19,17 +19,6 @@ import ButtonWithIcon from '../../common/ButtonWithIcon';
 import _ from 'lodash';
 import { sendActionAnalytics, sendActionAnalyticsToDB } from '../../../utils/AnalyticsHelper';
 const width = Dimensions.get('screen').width;
-// let consentList = [];
-// const ListA =
-//   [
-//     // {
-//     //   id: 2,
-//     //   type: 'T&C',
-//     //   version: '1.1.1',
-//     //   title: 'Terms & Conditions',
-//     //   description: 'Terms & Conditions are updated, can you please provide your consent?'
-//     // }
-//   ];
 
 
 
@@ -63,7 +52,7 @@ class DashBoard extends Component {
 
   async componentDidMount(){
     await this.getAccountDetails();
-    this.getConsentDetails();
+    //this.getConsentDetails();
     // setTimeout(()=>{
     //   this.getConsentDetails();
     // },2000);
