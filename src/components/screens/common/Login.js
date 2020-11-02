@@ -1,7 +1,7 @@
 /**
  * pda
  * Login.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 27/02/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -278,13 +278,7 @@ class Login extends Component {
         <RootView style={{flex:1,backgroundColor: COLORS.white}} pointerEvents = {isLoading ? 'none':null}>
           <View style={{margin:verticalScale(23)}}>
             <View style={{marginVertical: 20}}>
-              <View style={{marginHorizontal: verticalScale(-16)}}>
-                <Image
-                  testID = "logo"
-                  source={require('../../../assets/Images/logo.png')}
-                  style={{marginVertical:verticalScale(15),marginHorizontal:verticalScale(17)}}
-                />
-              </View>
+              <View style={{marginHorizontal: verticalScale(-16)}}/>
               <Text style={[TEXT_TYPE.H9, { color: COLORS.appNameColor, marginTop: verticalScale(40) }]}>
                 {stringsConvertor('signIn.gladToSeeYou')}
               </Text>

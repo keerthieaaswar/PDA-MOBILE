@@ -1,7 +1,7 @@
 /**
  * pda
  * PhoneNumberUpdate.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 30/07/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -319,13 +319,7 @@ class PhoneNumberUpdate extends Component {
               <View style={{marginHorizontal:verticalScale(23), flex:1}}>
                 <View style={{flexDirection:'row',justifyContent : 'space-between'}}>
                   <View style={{marginVertical: 20}}>
-                    <View style={{marginHorizontal: verticalScale(-16)}}>
-                      <Image
-                        testID = "logo"
-                        source={require('../../../assets/Images/logo.png')}
-                        style={{marginTop:verticalScale(40),marginBottom:verticalScale(30),marginHorizontal:verticalScale(17)}}
-                      />
-                    </View>
+                    <View style={{marginHorizontal: verticalScale(-16)}}/>
                     <Text style={[TEXT_TYPE.H9,{color:COLORS.appNameColor,marginBottom:verticalScale(55)}]}>
                       {isCurrentPassVerified || isEmailOTPVerified ? stringsConvertor('phoneNumberUpdate.addNewNumber') : stringsConvertor('phoneNumberUpdate.typeYourPass')}
                     </Text>

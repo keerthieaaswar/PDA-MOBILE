@@ -1,7 +1,7 @@
 /**
  * pda
  * Splash.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 27/02/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -171,9 +171,6 @@ class Splash extends Component {
     } = this.props;
     return(
       <View style={{ flex:1,backgroundColor:COLORS.white}}>
-        <View style={{ flex:1,justifyContent:'center',alignItems:'center'}}>
-          <Image source={require('../../../assets/Images/background1.png')} />
-        </View>
         <View style={[ styles.activityView]}>
           {this.renderLoader()}
         </View>

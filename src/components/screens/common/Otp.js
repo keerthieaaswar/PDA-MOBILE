@@ -242,13 +242,7 @@ export default class App extends Component {
           /></View>
         <View>
           <View style={{flexDirection:'row',justifyContent : 'space-between'}}>
-            <View style={{marginVertical: verticalScale(56)}}>
-              <Image
-                testID = "logo"
-                source={require('../../../assets/Images/logo.png')}
-                style={{marginHorizontal:verticalScale(17)}}
-              />
-            </View>
+            <View style={{marginVertical: verticalScale(56)}}/>
           </View>
           <View style={{alignItems: 'center',justifyContent:'center'}}>
             <Image

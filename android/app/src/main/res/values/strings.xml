@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">PDA-Trainer</string>
-    <string name="clevertap_account_id_value">""</string>
-    <string name="clevertap_token_value">""</string>
+    <string name="clevertap_account_id_value">"TEST-568-R94-755Z"</string>
+    <string name="clevertap_token_value">"TEST-4c2-b65"</string>
 </resources>

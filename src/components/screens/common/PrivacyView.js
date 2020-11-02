@@ -1,7 +1,7 @@
 /**
  * pda
  * PrivacyView.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 09/10/2019
  * Copyright © 2019 pda. All rights reserved.
  */

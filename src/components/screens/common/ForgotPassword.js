@@ -244,13 +244,7 @@ class ForgotPassword extends Component {
         <View style={{marginHorizontal:verticalScale(23), flex:1}}>
           <View style={{flexDirection:'row',justifyContent : 'space-between'}}>
             <View style={{marginVertical: verticalScale(56)}}>
-              <View style={{marginTop: 20}}>
-                <Image
-                  testID = "logo"
-                  source={require('../../../assets/Images/logo.png')}
-                  style={{marginBottom:verticalScale(43)}}
-                />
-              </View>
+              <View style={{marginTop: 20}}/>
               <Text style={[TEXT_TYPE.H10,{color:COLORS.appNameColor,marginBottom:verticalScale(62), marginTop: verticalScale(15)}]}>
                 {stringsConvertor('forgetPassword.forgetText')}
               </Text>

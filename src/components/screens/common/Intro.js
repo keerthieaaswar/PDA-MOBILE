@@ -1,7 +1,7 @@
 /**
  * pda
  * Intro.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 06/06/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -9,7 +9,6 @@ import React, { Component } from 'react';
 import {
   View,
   Text,
-  Image,
   StyleSheet
 } from 'react-native';
 import PropTypes from 'prop-types';
@@ -106,12 +105,7 @@ class Intro extends Component {
     } = this.props;
     return(
       <RootView style={styles.mainContainer} pointerEvents={isLoading ? 'none' : null}>
-        <Image
-          testID="logo"
-          source={require('../../../assets/Images/logo.png')}
-          style={styles.logo}
-        />
-        <Text style={[TEXT_TYPE.H10, { color: COLORS.landingText,marginHorizontal:verticalScale(5), fontSize:verticalScale(28) }]}>{stringsConvertor('intro.text1')}</Text>
+        <Text style={[TEXT_TYPE.H10, { color: COLORS.landingText, marginTop:50 ,marginHorizontal:verticalScale(5), fontSize:verticalScale(28) }]}>{stringsConvertor('intro.text1')}</Text>
         <Text style={[TEXT_TYPE.H10, { fontFamily:FONT_FAMILY.BOLD,color: COLORS.landingText,marginHorizontal:verticalScale(5),fontSize:verticalScale(28) }]}>{stringsConvertor('intro.text2')}</Text>
         <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', marginTop: verticalScale(335),marginHorizontal:verticalScale(6)}}>
           <View style={{marginRight:verticalScale(15)}}>

@@ -1,7 +1,7 @@
 /**
  * pda
  * Url.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 27/02/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -95,4 +95,3 @@ export const URL = {
   DELETE_BASE_LOCATION:'user/location',
   GETCONSENTINFO:'user/consent/'
 };
-

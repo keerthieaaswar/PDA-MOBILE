@@ -1,7 +1,7 @@
 /**
  * pda
  * PhoneNumberUpdateScreen.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 30/07/2019
  * Copyright © 2019 pda. All rights reserved.
  */

@@ -1,7 +1,7 @@
 /**
  * pda
  * QrCodeScanner.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 04/04/2019
  * Copyright © 2019 pda. All rights reserved.
  */

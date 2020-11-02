@@ -1,7 +1,7 @@
 /**
  * pda
  * TermsConditionsViewScreen.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 07/09/2019
  * Copyright © 2019 pda. All rights reserved.
  */

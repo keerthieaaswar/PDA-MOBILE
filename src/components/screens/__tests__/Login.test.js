@@ -34,12 +34,6 @@ describe('Login Page Component',()=>{
       expect(wrapper.find('[testID="logo"]').length).toBe(1);
     });
 
-
-    it('render image path fro logo ',()=>{
-      const image = {'testUri': '../../../src/assets/Images/logo.png'};
-      expect(wrapper.find('[testID="logo"]').prop('source')).toEqual(image);
-    });
-
     it('render two CustomTextInput rendering',()=>{
       expect(wrapper.find('CustomTextInput').length).toBe(2);
     });

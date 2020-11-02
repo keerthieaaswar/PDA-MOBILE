@@ -36,12 +36,6 @@ describe('SignUp Page Component',()=>{
       expect(wrapper.find('[testID="logo"]').length).toBe(1);
     });
 
-
-    it('render image path for logo ',()=>{
-      const image = {'testUri': '../../../src/assets/Images/logo.png'};
-      expect(wrapper.find('[testID="logo"]').prop('source')).toEqual(image);
-    });
-
     it('render 5 CustomTextInput',()=>{
       expect(wrapper.find('CustomTextInput').length).toBe(5);
     });

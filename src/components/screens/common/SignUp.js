@@ -1,7 +1,7 @@
 /**
  * pda
  * signUp.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 07/06/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -285,15 +285,7 @@ render(){
           iconColor={COLORS.grayLight}
           onPress={this.onPressBack}
         /></View>
-
-      <View style={{marginHorizontal: verticalScale(5)}}>
-        <Image
-          testID = "logo"
-          source={require('../../../assets/Images/logo.png')}
-          style={{marginTop:verticalScale(40),marginHorizontal:verticalScale(17)}}
-        />
-      </View>
-
+      <View style={{marginHorizontal: verticalScale(5)}}/>
       <View style={{marginHorizontal:verticalScale(23)}}>
         <View>
           <Text style={[TEXT_TYPE.H10,{marginVertical:verticalScale(32),color:COLORS.appNameColor}]}>{stringsConvertor('signUp.signUp')}</Text>

@@ -1,7 +1,7 @@
 /**
  * pda
  * Analytics.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 02/04/2019
  * Copyright © 2019 pda. All rights reserved.
  */

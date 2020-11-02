@@ -1,7 +1,7 @@
 /**
  * pda
  * SignUpSuccess.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 09/06/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -45,13 +45,7 @@ class SignUpSuccess extends Component {
     return(
       <View style={styles.mainContainer} pointerEvents = {isLoading ? 'none':null}>
         <View style={{flex:1, alignItems:'center', margin:40}}>
-          <View style={{paddingBottom:verticalScale(25),justifyContent:'center'}}>
-            <Image
-              testID = "logo"
-              source={require('../../../assets/Images/logo.png')}
-              style={{marginTop:verticalScale(100)}}
-            />
-          </View>
+          <View style={{paddingBottom:verticalScale(25),justifyContent:'center'}}/>
           <Text style={[TEXT_TYPE.H9,{color:COLORS.appNameColor}]}>{stringsConvertor('signUp.congratulations')}</Text>
           <Text style={[TEXT_TYPE.H1,{color: COLORS.signUpText1,marginTop:verticalScale(10)}]}>{stringsConvertor('signUp.signedUpSuccess')}</Text>
           <Image

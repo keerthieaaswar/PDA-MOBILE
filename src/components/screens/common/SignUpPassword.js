@@ -1,7 +1,7 @@
 /**
  * pda
  * SignUpPassword.js
- * @author Socion Advisors LLP
+ * @author PDA
  * @description Created on 08/06/2019
  * Copyright © 2019 pda. All rights reserved.
  */
@@ -230,13 +230,7 @@ class SignUpPassword extends Component {
         <ScrollView contentContainerStyle={styles.container}>
           <View style={{marginHorizontal:verticalScale(23)}}>
             <View style={{flexDirection:'row',justifyContent : 'space-between'}}>
-              <View style={{marginHorizontal: verticalScale(-16), marginTop:verticalScale(10)}}>
-                <Image
-                  testID = "logo"
-                  source={require('../../../assets/Images/logo.png')}
-                  style={{marginTop:verticalScale(56),marginBottom:verticalScale(16),marginHorizontal:verticalScale(17)}}
-                />
-              </View>
+              <View style={{marginHorizontal: verticalScale(-16), marginTop:verticalScale(10)}}/>
               <View>
                 <Ripple style={{marginTop: Platform.OS === 'ios'?verticalScale(30) : verticalScale(25)}} onPress={this.onPressBack}>
                   <CustomIcon

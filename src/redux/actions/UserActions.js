@@ -766,7 +766,7 @@ export const deleteUserQualification =  (id,name, callback) =>{
 };
 
 export const getBaseLocationLatLongApi =(lat,long,callback) =>{
-  const uurl ='BASE LOCATION API';
+  const uurl ='https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDVf-To9hehz4ORteAxgsP-yzHxsahVcDo&';
   return()=>{
     return HttpBaseClient.get(`${uurl}latlng=${lat},${long}`,0,{}).then((response) =>{
       if(response){
@@ -823,7 +823,7 @@ export const updateBaseLocation =  (data, callback) =>{
 };
 
 export const getSearchedLocation =(data,callback) =>{
-  const uurl ='AUTO COMPLETE API URL';
+  const uurl ='https://maps.googleapis.com/maps/api/place/autocomplete/json?key=AIzaSyDVf-To9hehz4ORteAxgsP-yzHxsahVcDo&sessiontoken=1234567890%20&';
   return(dispatch)=>{
     return HttpBaseClient.get(`${uurl}input=${data}`,0,{}).then((response) =>{
       if(response){
@@ -839,7 +839,7 @@ export const getSearchedLocation =(data,callback) =>{
 
 export const getLocationByPlaceId =(data,callback) =>{
   myLog('data12',data);
-  const uurl ='MAPS API';
+  const uurl ='https://maps.googleapis.com/maps/api/place/details/json?key=AIzaSyDVf-To9hehz4ORteAxgsP-yzHxsahVcDo&';
   return(dispatch)=>{
     return HttpBaseClient.get(`${uurl}place_id=${data.place_id}&language=${data.detectedLanguageCode}`,0,{}).then((response) =>{
       if(response){

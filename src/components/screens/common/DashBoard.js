@@ -235,15 +235,8 @@ class DashBoard extends Component {
         <View style={{position:'absolute', right: 10, top: 10, marginTop : pdaStyleSheet.toolbarPaddingTop, zIndex:2}} >
           <NotificationBell/>
         </View>
-        <View style={{marginVertical: 10, marginHorizontal: verticalScale(5)}}>
-          <Image
-            testID = "logo"
-            source={require('../../../assets/Images/logo.png')}
-            style={{marginTop:verticalScale(38),marginHorizontal:verticalScale(16),marginBottom:verticalScale(25)}}
-          />
-        </View>
         <View style={{paddingHorizontal: verticalScale(20)}}>
-          <Text style={[TEXT_TYPE.H5,{marginBottom: 5}]}>{stringsConvertor('dashboard.welcomeTo')}</Text>
+          <Text style={[TEXT_TYPE.H5,{marginBottom: 5,marginTop: 50}]}>{stringsConvertor('dashboard.welcomeTo')}</Text>
           <Text style={[TEXT_TYPE.H11, {color: COLORS.black,fontWeight: 'bold'}]}>{isTrainerApp() ? stringsConvertor('alert.trainerApp') : stringsConvertor('alert.participantApp') }</Text>
         </View>
         <BottomMenu screen={name}/>

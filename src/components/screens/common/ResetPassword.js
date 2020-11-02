@@ -156,13 +156,7 @@ export default class App extends Component {
           </View>
           <View style={{marginHorizontal:verticalScale(23)}}>
             <View style={{flexDirection:'row',justifyContent : 'space-between'}}>
-              <View style={{marginVertical: 10}}>
-                <Image
-                  testID = "logo"
-                  source={require('../../../assets/Images/logo.png')}
-                  style={{marginTop:verticalScale(56),marginBottom:verticalScale(30)}}
-                />
-              </View>
+              <View style={{marginVertical: 10}}/>
             </View>
             <View>
               <Text style={[TEXT_TYPE.H10,{marginVertical:verticalScale(29),color:COLORS.appNameColor}]}>{stringsConvertor('forgetPassword.forgetText')}</Text>
